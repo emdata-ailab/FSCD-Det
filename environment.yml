@@ -1,0 +1,22 @@
+name: OAFSUI2IT
+channels:
+- pytorch
+- defaults
+dependencies:
+- python=3.6
+- pytorch=1.4.0
+- scipy
+- pip:
+  - dominate==2.4.0
+  - torchvision==0.5.0
+  - Pillow==6.1.0
+  - numpy==1.16.4
+  - visdom==0.1.8
+  - packaging
+  - GPUtil==1.4.0
+  - click==7.1.2
+  - requests==2.25.1
+  - tqdm==4.55.0
+  - pyspng==0.1.0
+  - ninja==1.10.0.post2
+  - imageio-ffmpeg==0.4.3
